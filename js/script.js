@@ -30,7 +30,7 @@ getWord();
 const placeholder = function (word) {
   const placeholderLetters = [];
   for (const letter of word) {
-    console.log(letter);
+    //console.log(letter);
     placeholderLetters.push("●");
   }
   wordInProgress.innerText = placeholderLetters.join("");
